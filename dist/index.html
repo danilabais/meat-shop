@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark  bg-dark fixed-top">
+    <div class="container-md">
+      <a class="navbar-brand fs-2" href="#">Мясной бутик</a>
+      <a class="navbar-brand me-auto" href="#"><img class="anim-logo" src="images/logo.svg" width="60px" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg fill="#fff" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+          <li class="nav-item m-auto">
+            <a class="nav-link  text-white"  href="#">Главная</a>
+          </li>
+          
+          <li class="nav-item m-auto">
+            <a class="nav-link  text-white" href="#">Контакты</a>
+          </li>
+          <li class="nav-item m-auto">
+            <a class="nav-link  text-white" href="#">О нас</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <main class="main">
+    <div class="main__wrap">
+      <h1 class="main__h">
+        Мясной бутик
+      </h1>
+      <p class="main__p">
+        Вкуснейшее мясо на развес по оптовым ценам
+      </p>
+      <div class="main__arrow">
+        <img src="images/arrow.svg" alt="arrow" class="main__arrow-img">
+      </div>
+    </div>
+  </main>
+
+<section class="cow">
+  <h2 class="cow__h">Выбери себе мясо<br> <span class="span-desk">(Наведи на корову)</span><span class="span-mob">(Нажми на часть коровы)</span></h2>
+  <div class="cow__img-wrap">
+    <svg class="cow__svg" viewBox="0 0 800 500">
+      <path data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" title="Шея" data-bs-content="Для фарша, котлет супа" class="cow__path" d="m 239.78398,75.607561 c 13.00947,47.442529 19.87158,92.250479 19.44194,133.933389 l 79.20792,2.16022 C 337.0478,166.57666 329.24923,121.45215 312.51125,76.327633 Z"/>
+      <path data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" title="Спинка (толстый край)" data-bs-content="Для и запекания крупными кусками"  class="cow__path" d="m 311.79118,74.887489 c 15.87939,53.354011 28.60115,103.199521 27.36274,137.533751 44.92037,0.49553 78.50762,3.59661 112.33123,7.92079 16.23169,-65.65865 7.10324,-100.88513 -5.04051,-132.493245 -44.88449,-4.320432 -89.76897,-8.640864 -134.65346,-12.961296 z"/>
+      <path data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" title="Спинка (тонкий край)" data-bs-content="Для и запекания крупными кусками"  class="cow__path" d="m 445.72457,84.968497 c 19.06309,52.519523 18.07241,96.265513 6.48065,135.373533 35.84589,6.0006 50.23727,12.0012 67.68677,18.0018 14.68596,-46.06353 24.23268,-94.56144 2.88029,-157.695765 -20.24428,2.890355 -30.04774,8.564928 -77.04771,4.320432 z"/>
+      <path data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" title="Кострец" data-bs-content="Для жарки, фарша, котлет, супа" class="cow__path" d="m 524.21242,80.648065 c 17.95841,61.867735 13.43846,113.087835 -5.0405,157.695765 25.20252,7.22171 50.40504,22.8364 75.60756,37.44375 18.56909,-70.34861 36.95909,-140.83677 -7.92079,-203.780379 -17.59794,2.880288 -20.78949,5.760576 -62.64627,8.640864 z"/>
+      <path data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" title="Задняя нога" data-bs-content="Верхнюю и внутреннюю часть можно жарить, боковую или наружнюю - только варить или тушить" class="cow__path" d="m 587.57876,70.567057 c 43.11103,75.125023 22.9655,138.389443 6.48065,202.340233 26.15789,-18.19171 56.68848,-8.68969 88.56885,9.36094 C 714.53119,175.31 724.59587,129.38903 674.70747,72.007201 643.32929,57.515509 615.16026,62.278697 587.57876,70.567057 Z"/>
+      <path data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" title="Пашина" data-bs-content="Для котлет и бульона" class="cow__path" d="m 452.20522,221.06211 c -16.52297,28.60767 -20.42159,60.68701 -15.84158,95.0495 15.07284,8.90942 19.31212,13.48542 25.20252,18.72187 -12.62928,-25.49393 75.47369,-41.5442 117.37173,-61.92619 -33.33888,-27.0776 -74.21232,-45.8672 -126.73267,-51.84518 z"/>
+      <path data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" title="Грудина" data-bs-content="Для тушения, запекания, варки и фарша" class="cow__path" d="m 338.43384,211.70117 c -6.71979,52.32128 -8.13479,80.77096 -7.20072,98.64987 76.49504,-11.25764 95.07741,-3.77882 107.29073,5.76057 -7.78133,-28.83506 -3.49916,-60.45401 13.68137,-95.0495 -20.39365,-5.62462 -67.15263,-7.48276 -113.77138,-9.36094 z"/>
+      <path data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" title="Лопатка" data-bs-content="Для варки, тушения маленькими кусками, фарша" class="cow__path" d="m 258.50585,208.10081 c 27.30371,1.62114 54.50769,3.14256 79.92799,2.88029 l -6.48064,75.60756 c -30.63519,-21.29127 -57.18933,-5.85312 -82.08821,24.48245 l -11.52116,-11.52116 c 11.57706,-27.24545 20.04899,-56.561 20.16202,-91.44914 z"/>
+    </svg>
+    <img src="images/cow.png" alt="cow" class="cow__img">
+  </div>
+  <div class="d-grid gap-2 col-3 mx-auto">
+    <button type="button" class="btn btn-success text-center btn-lg mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+      Сделать заказ
+    </button>
+  </div>
+  <section  class="rev  pb-5">
+  <div class="cow__h rev__h">Наши отзывы</div>
+  <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="container-sm">
+          <div class="card m-5">
+            <div class="card-header">
+              19.06.2021
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Нигде еще не встречал такое нежнейшее мясо, только тут и покупаю</p>
+                <footer class="blockquote-footer">Михаил Иванов из <cite title="Source Title">Ростова</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="container-sm">
+          <div class="card m-5">
+            <div class="card-header">
+              14.06.2021
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Кормлю собаку пашиной, стоит не дорого, собака довольна</p>
+                <footer class="blockquote-footer">Надежда Михайлова из <cite title="Source Title">Санкт-Петербурга</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container-sm">
+          <div class="card m-5">
+            <div class="card-header">
+              01.06.2021
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Радует сервис компании и быстрая доставка</p>
+                <footer class="blockquote-footer">Андрей Лыжнев из <cite title="Source Title">Минска</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+</section>
+  
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Оформление заказа</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <fieldset>
+            <legend>Введите контактные данные для заказа</legend>
+            <div class="mb-3">
+              <label for="NameInput" class="form-label">Введите имя</label>
+              <input type="text" id="NameInput" class="form-control" placeholder="Иван">
+            </div>
+            <div class="mb-3">
+              <label for="NumberInput" class="form-label">Введите нормер телефона</label>
+              <input type="tel" id="NumberInput" class="form-control" placeholder="+79912345678">
+            </div>
+            <div class="mb-3">
+              <label for="Select" class="form-label">Выберите часть мяса</label>
+              <select id="Select" class="form-select">
+                <option>Шея</option>
+                <option>Спинка (толстый край)</option>
+                <option>Спинка (тонкий край)</option>
+                <option>Кострец</option>
+                <option>Задняя нога</option>
+                <option>Пашина</option>
+                <option>Грудина</option>
+                <option>Лопатка</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                <label class="form-check-label" for="FieldsetCheck">
+                  Согласие на обработку персональных данных
+                </label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-link" data-bs-dismiss="modal">Назад</button>
+            <button type="submit" class="btn btn-primary">Заказать</button>
+          </div>
+          </fieldset>
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div  class="footer pb-4 pt-4 bg-dark text-white">
+    <div class="container-xl">
+      <div class="row">
+             <div class="col"></div>
+              <div class="col fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+              <h3>Контакты</h3>
+              <p><i class="fas fa-map-marker-alt"></i> Невский проспект, С.П.-б, д.3</p>
+              <p><i class="fas fa-phone"></i> <a class="tdu" href="tel:+7 (996) 789 98 73"> +7 (996) 789 98 73</a></p>
+              <p><i class="fas fa-envelope"></i> <a class="tdu" href="mailto:meat_shop@spb.ru">meat_shop@spb.ru</a></p>
+              </div>
+             
+              <div class="col"></div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
